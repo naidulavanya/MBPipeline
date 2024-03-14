@@ -8,13 +8,13 @@ pipeline {
             }
         }
      
-        stage('sprint1 branch') { 
+        stage('sprint1') { 
             steps { 
                sh 'echo "sprint1 application..."'
             }
         }
 
-        stage("Development") { 
+        stage("hotfix") { 
              steps { 
                 sh 'echo "Deploying application..."'
             }
